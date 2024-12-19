@@ -1,0 +1,9 @@
+[03-Jun-2023 17:13:04 UTC] PHP Notice:  Undefined index: userId in /home2/jiajunco/public_html/test/php/new/test2.php on line 12
+[03-Jun-2023 17:13:14 UTC] PHP Notice:  Undefined index: userId in /home2/jiajunco/public_html/test/php/new/profile.php on line 43
+[03-Jun-2023 17:14:10 UTC] PHP Notice:  Undefined index: userId in /home2/jiajunco/public_html/test/php/new/profile.php on line 43
+[03-Jun-2023 17:14:11 UTC] PHP Notice:  Undefined index: userId in /home2/jiajunco/public_html/test/php/new/profile.php on line 43
+[03-Jun-2023 17:14:12 UTC] PHP Notice:  Undefined index: userId in /home2/jiajunco/public_html/test/php/new/profile.php on line 43
+[03-Jun-2023 17:14:52 UTC] PHP Notice:  Undefined index: userId in /home2/jiajunco/public_html/test/php/new/profile.php on line 43
+[03-Jun-2023 17:14:58 UTC] PHP Notice:  Undefined index: userId in /home2/jiajunco/public_html/test/php/new/profile.php on line 43
+[03-Jun-2023 17:15:01 UTC] PHP Notice:  Undefined index: userId in /home2/jiajunco/public_html/test/php/new/test2.php on line 12
+[03-Jun-2023 17:17:39 UTC] PHP Notice:  Undefined variable: sqlUserProfile in /home2/jiajunco/public_html/test/php/new/index.php on line 56

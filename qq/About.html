@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Footer - Sagar Developer</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    
+ 
+    
+    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+   
+</head>
+
+<body>
+<header>
+      <img src="./assets/images/Logo123.png" alt="CMS logo" width="100">
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+          <li><a href="Location.html">Location</a></li>
+          <li><a href="./php/login.php">Login</a></li>
+          <li><a href="./php/re.php">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center pb-4">WHY CHOOSE OUR SYSTEM?</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <svg class="bi text-primary mb-3" width="3em" height="3em">
+                  <use xlink:href="#collection" />
+                </svg>
+                <h3 class="card-title mb-3">Efficient Cemetery Management</h3>
+                <p class="card-text">Provide an efficient and orderly cemetery management system to meet the various needs of customers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <svg class="bi text-primary mb-3" width="3em" height="3em">
+                  <use xlink:href="#people-circle" />
+                </svg>
+                <h3 class="card-title mb-3">Respectful Final Resting Place</h3>
+                <p class="card-text">To create a respectful and dignified final resting place for the deceased.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <svg class="bi text-primary mb-3" width="3em" height="3em">
+                  <use xlink:href="#toggles2" />
+                </svg>
+                <h3 class="card-title mb-3">Efficient and Professional Cemetery Services</h3>
+                <p class="card-text">Provides an efficient and professional service to help families and individuals manage their cemetery arrangements.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+   
+    
+    
+
+      
+
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3><span>Cemetery Management System</span></h3>
+        <p class="footer-links">
+          <a href="#">Home</a> |
+          <a href="#">About</a> |
+          <a href="#">Contact</a> |
+        </p>
+        <p class="footer-company-name">Copyright © 2023
+          <strong>CMS-Web</strong> All rights reserved</p>
+      </div>
+      <div class="footer-center">
+        <div>
+           <i class="fa fa-map-marker"></i>
+           <p>
+              <a href="https://goo.gl/maps/roHEorQg5fDyvxGK7">
+              
+             <strong>Address:</strong>
+             <br> 5, Lengkok Barat, George Town,
+             <br>10450 George Town, 
+             <br>Pulau Pinang
+             </a>
+         </p>
+        
+       </div>
+   
+         <div>
+             <i class="fa fa-phone"></i>
+          <p> <a href="tel:+607313335000">Call us at 07-3331-5000</a> </p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:cms@gmail.com">cms@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Us</span>
+        </p>
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+<script>
+    $(document).ready(function () {
+
+        $('#menu').click(function () {
+    
+            $(this).toggleClass('fa-times');
+            $('.navbar').toggleClass('nav-toggle');
+        });
+    });
+</script>
+
+</body>
+
+</html>

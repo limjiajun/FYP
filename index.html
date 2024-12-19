@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS Homepage</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    
+ 
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+   
+</head>
+
+<body>
+<header>
+      <img src="../assets/images/Logo123.png" alt="CMS logo" width="100">
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+          <li><a href="Location.html">Location</a></li>
+          <li><a href="./php/login.php">Login</a></li>
+          <li><a href="./php/re.php">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+  
+     
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <h1 class="h1 hero-title" style="font-weight: bold; font-size: 18px;">Cemetery Management System</h1>
+              <p class="hero-text" style="font-size: 18px;">Established in the year of 2022. A cemetery management system is software that assists in the management of cemetery operations. It can be used to track grave sites, interments, and burials, as well as to plan and record maintenance tasks.</p>
+              <button class="btn btn-primary">Get started</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="./assets/images/hero-banner1.png" width="500">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  
+  
+    
+      
+
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3><span>Cemetery Management System</span></h3>
+        <p class="footer-links">
+          <a href="#">Home</a> |
+          <a href="#">About</a> |
+          <a href="#">Contact</a> |
+        </p>
+        <p class="footer-company-name">Copyright © 2023
+          <strong>CMS-Web</strong> All rights reserved</p>
+      </div>
+      <div class="footer-center">
+        <div>
+           <i class="fa fa-map-marker"></i>
+           <p>
+              <a href="https://goo.gl/maps/roHEorQg5fDyvxGK7">
+              
+             <strong>Address:</strong>
+             <br> 5, Lengkok Barat, George Town,
+             <br>10450 George Town, 
+             <br>Pulau Pinang
+             </a>
+         </p>
+        
+       </div>
+   
+         <div>
+             <i class="fa fa-phone"></i>
+          <p> <a href="tel:+607313335000">Call us at 07-3331-5000</a> </p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:cms@gmail.com">cms@gmail.com</a></p>
+        </div>
+      </div>
+     
+    </footer>
+<script>
+    $(document).ready(function () {
+
+        $('#menu').click(function () {
+    
+            $(this).toggleClass('fa-times');
+            $('.navbar').toggleClass('nav-toggle');
+        });
+    });
+</script>
+
+</body>
+
+</html>
